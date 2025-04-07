@@ -1,0 +1,182 @@
+:root {
+  --primary-color: #6c5ce7;
+  --secondary-color: #a29bfe;
+  --background: #f0f2f5;
+  --white: #ffffff;
+  --shadow: 8px 8px 15px #d9d9d9, 
+           -8px -8px 15px #ffffff;
+  --inset-shadow: inset 3px 3px 5px #d9d9d9, 
+                inset -3px -3px 5px #ffffff;
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;  /* 从800px缩小到600px */
+  background: var(--white);
+  border-radius: 20px;
+  padding: 2rem;    /* 减少内边距 */
+  box-shadow: var(--shadow);
+  margin: 0 auto;    /* 确保居中 */
+}
+
+.container.animated {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* 调整按钮布局 */
+.mode-buttons {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 10px 10px 20px #d9d9d9, 
+             -10px -10px 20px #ffffff;
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: var(--inset-shadow);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.btn-danger {
+  background: #ff7675;
+}
+
+.question-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.poem-line {
+  margin: 0 0.5rem;
+  line-height: 3rem;
+}
+
+.answer-input {
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 12px;
+  box-shadow: var(--inset-shadow);
+  transition: var(--transition);
+  margin: 0 0.5rem;
+}
+
+.answer-input:focus {
+  outline: none;
+  box-shadow: inset 5px 5px 10px #d9d9d9,
+             inset -5px -5px 10px #ffffff;
+}
+
+.hidden-input {
+  display: none;
+}
+
+.question {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem 0;
+  line-height: 1.6;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.poem-info {
+  margin-top: 2rem;
+  font-style: italic;
+  color: #666;
+  text-align: center;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.score {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.mode-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+  
+  .actions {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+}

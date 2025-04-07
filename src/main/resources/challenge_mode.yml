@@ -1,0 +1,495 @@
+# challenge_mode.yml
+- title: "长安古意"
+  dynasty: "唐"
+  author: "卢照邻"
+  lines:
+    - line_number: 1
+      first_part: "长安大道连狭斜"
+      second_part: "青牛白马七香车"
+    - line_number: 2
+      first_part: "玉辇纵横过主第"
+      second_part: "金鞭络绎向侯家"
+
+- title: "代悲白头翁"
+  dynasty: "唐"
+  author: "刘希夷"
+  lines:
+    - line_number: 1
+      first_part: "洛阳城东桃李花"
+      second_part: "飞来飞去落谁家"
+    - line_number: 2
+      first_part: "洛阳女儿惜颜色"
+      second_part: "坐见落花长叹息"
+
+- title: "春江花月夜"
+  dynasty: "唐"
+  author: "张若虚"
+  lines:
+    - line_number: 1
+      first_part: "江畔何人初见月"
+      second_part: "江月何年初照人"
+    - line_number: 2
+      first_part: "人生代代无穷已"
+      second_part: "江月年年望相似"
+
+- title: "古风·其十九"
+  dynasty: "唐"
+  author: "李白"
+  lines:
+    - line_number: 1
+      first_part: "西上莲花山"
+      second_part: "迢迢见明星"
+    - line_number: 2
+      first_part: "素手把芙蓉"
+      second_part: "虚步蹑太清"
+
+- title: "听董大弹胡笳弄兼寄语房给事"
+  dynasty: "唐"
+  author: "李颀"
+  lines:
+    - line_number: 1
+      first_part: "蔡女昔造胡笳声"
+      second_part: "一弹一十有八拍"
+    - line_number: 2
+      first_part: "胡人落泪沾边草"
+      second_part: "汉使断肠对归客"
+
+- title: "走马川行奉送封大夫出师西征"
+  dynasty: "唐"
+  author: "岑参"
+  lines:
+    - line_number: 1
+      first_part: "君不见走马川行雪海边"
+      second_part: "平沙莽莽黄入天"
+    - line_number: 2
+      first_part: "轮台九月风夜吼"
+      second_part: "一川碎石大如斗"
+
+- title: "轮台歌奉送封大夫出师西征"
+  dynasty: "唐"
+  author: "岑参"
+  lines:
+    - line_number: 1
+      first_part: "轮台城头夜吹角"
+      second_part: "轮台城北旄头落"
+    - line_number: 2
+      first_part: "羽书昨夜过渠黎"
+      second_part: "单于已在金山西"
+
+- title: "白雪歌送武判官归京"
+  dynasty: "唐"
+  author: "岑参"
+  lines:
+    - line_number: 1
+      first_part: "北风卷地白草折"
+      second_part: "胡天八月即飞雪"
+    - line_number: 2
+      first_part: "忽如一夜春风来"
+      second_part: "千树万树梨花开"
+
+- title: "韦讽录事宅观曹将军画马图"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "国初已来画鞍马"
+      second_part: "神妙独数江都王"
+    - line_number: 2
+      first_part: "将军得名三十载"
+      second_part: "人间又见真乘黄"
+
+- title: "丹青引赠曹将军霸"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "将军魏武之子孙"
+      second_part: "于今为庶为清门"
+    - line_number: 2
+      first_part: "英雄割据虽已矣"
+      second_part: "文采风流今尚存"
+
+- title: "寄韩谏议注"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "今我不乐思岳阳"
+      second_part: "身欲奋飞病在床"
+    - line_number: 2
+      first_part: "美人娟娟隔秋水"
+      second_part: "濯足洞庭望八荒"
+
+- title: "古柏行"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "孔明庙前有老柏"
+      second_part: "柯如青铜根如石"
+    - line_number: 2
+      first_part: "霜皮溜雨四十围"
+      second_part: "黛色参天二千尺"
+
+- title: "观公孙大娘弟子舞剑器行"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "昔有佳人公孙氏"
+      second_part: "一舞剑器动四方"
+    - line_number: 2
+      first_part: "观者如山色沮丧"
+      second_part: "天地为之久低昂"
+
+- title: "石鱼湖上醉歌"
+  dynasty: "唐"
+  author: "元结"
+  lines:
+    - line_number: 1
+      first_part: "石鱼湖"
+      second_part: "似洞庭"
+    - line_number: 2
+      first_part: "夏水欲满君山青"
+      second_part: "山为樽"
+
+- title: "八月十五夜赠张功曹"
+  dynasty: "唐"
+  author: "韩愈"
+  lines:
+    - line_number: 1
+      first_part: "纤云四卷天无河"
+      second_part: "清风吹空月舒波"
+    - line_number: 2
+      first_part: "沙平水息声影绝"
+      second_part: "一杯相属君当歌"
+
+- title: "谒衡岳庙遂宿岳寺题门楼"
+  dynasty: "唐"
+  author: "韩愈"
+  lines:
+    - line_number: 1
+      first_part: "五岳祭秩皆三公"
+      second_part: "四方环镇嵩当中"
+    - line_number: 2
+      first_part: "火维地荒足妖怪"
+      second_part: "天假神柄专其雄"
+
+- title: "石鼓歌"
+  dynasty: "唐"
+  author: "韩愈"
+  lines:
+    - line_number: 1
+      first_part: "张生手持石鼓文"
+      second_part: "劝我试作石鼓歌"
+    - line_number: 2
+      first_part: "少陵无人谪仙死"
+      second_part: "才薄将奈石鼓何"
+
+- title: "渔翁"
+  dynasty: "唐"
+  author: "柳宗元"
+  lines:
+    - line_number: 1
+      first_part: "渔翁夜傍西岩宿"
+      second_part: "晓汲清湘燃楚竹"
+    - line_number: 2
+      first_part: "烟销日出不见人"
+      second_part: "欸乃一声山水绿"
+
+- title: "连昌宫词"
+  dynasty: "唐"
+  author: "元稹"
+  lines:
+    - line_number: 1
+      first_part: "连昌宫中满宫竹"
+      second_part: "岁久无人森似束"
+    - line_number: 2
+      first_part: "又有墙头千叶桃"
+      second_part: "风动落花红蔌蔌"
+
+- title: "韩碑"
+  dynasty: "唐"
+  author: "李商隐"
+  lines:
+    - line_number: 1
+      first_part: "元和天子神武姿"
+      second_part: "彼何人哉轩与羲"
+    - line_number: 2
+      first_part: "誓将上雪列圣耻"
+      second_part: "坐法宫中朝四夷"
+
+- title: "燕歌行"
+  dynasty: "唐"
+  author: "高适"
+  lines:
+    - line_number: 1
+      first_part: "汉家烟尘在东北"
+      second_part: "汉将辞家破残贼"
+    - line_number: 2
+      first_part: "男儿本自重横行"
+      second_part: "天子非常赐颜色"
+
+- title: "古从军行"
+  dynasty: "唐"
+  author: "李颀"
+  lines:
+    - line_number: 1
+      first_part: "白日登山望烽火"
+      second_part: "黄昏饮马傍交河"
+    - line_number: 2
+      first_part: "行人刁斗风沙暗"
+      second_part: "公主琵琶幽怨多"
+
+- title: "洛阳女儿行"
+  dynasty: "唐"
+  author: "王维"
+  lines:
+    - line_number: 1
+      first_part: "洛阳女儿对门居"
+      second_part: "才可容颜十五余"
+    - line_number: 2
+      first_part: "良人玉勒乘骢马"
+      second_part: "侍女金盘脍鲤鱼"
+
+- title: "老将行"
+  dynasty: "唐"
+  author: "王维"
+  lines:
+    - line_number: 1
+      first_part: "少年十五二十时"
+      second_part: "步行夺得胡马骑"
+    - line_number: 2
+      first_part: "射杀山中白额虎"
+      second_part: "肯数邺下黄须儿"
+
+- title: "桃源行"
+  dynasty: "唐"
+  author: "王维"
+  lines:
+    - line_number: 1
+      first_part: "渔舟逐水爱山春"
+      second_part: "两岸桃花夹古津"
+    - line_number: 2
+      first_part: "坐看红树不知远"
+      second_part: "行尽青溪不见人"
+
+- title: "蜀相"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "丞相祠堂何处寻"
+      second_part: "锦官城外柏森森"
+    - line_number: 2
+      first_part: "映阶碧草自春色"
+      second_part: "隔叶黄鹂空好音"
+
+- title: "客至"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "舍南舍北皆春水"
+      second_part: "但见群鸥日日来"
+    - line_number: 2
+      first_part: "花径不曾缘客扫"
+      second_part: "蓬门今始为君开"
+
+- title: "野望"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "西山白雪三城戍"
+      second_part: "南浦清江万里桥"
+    - line_number: 2
+      first_part: "海内风尘诸弟隔"
+      second_part: "天涯涕泪一身遥"
+
+- title: "闻官军收河南河北"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "剑外忽传收蓟北"
+      second_part: "初闻涕泪满衣裳"
+    - line_number: 2
+      first_part: "却看妻子愁何在"
+      second_part: "漫卷诗书喜欲狂"
+
+- title: "登楼"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "花近高楼伤客心"
+      second_part: "万方多难此登临"
+    - line_number: 2
+      first_part: "锦江春色来天地"
+      second_part: "玉垒浮云变古今"
+
+- title: "宿府"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "清秋幕府井梧寒"
+      second_part: "独宿江城蜡炬残"
+    - line_number: 2
+      first_part: "永夜角声悲自语"
+      second_part: "中天月色好谁看"
+
+- title: "咏怀古迹五首"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "支离东北风尘际"
+      second_part: "漂泊西南天地间"
+    - line_number: 2
+      first_part: "三峡楼台淹日月"
+      second_part: "五溪衣服共云山"
+
+- title: "白帝"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "白帝城中云出门"
+      second_part: "白帝城下雨翻盆"
+    - line_number: 2
+      first_part: "高江急峡雷霆斗"
+      second_part: "古木苍藤日月昏"
+
+- title: "秋兴八首"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "玉露凋伤枫树林"
+      second_part: "巫山巫峡气萧森"
+    - line_number: 2
+      first_part: "江间波浪兼天涌"
+      second_part: "塞上风云接地阴"
+
+- title: "九日"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "重阳独酌杯中酒"
+      second_part: "抱病起登江上台"
+    - line_number: 2
+      first_part: "竹叶于人既无分"
+      second_part: "菊花从此不须开"
+
+- title: "登岳阳楼"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "昔闻洞庭水"
+      second_part: "今上岳阳楼"
+    - line_number: 2
+      first_part: "吴楚东南坼"
+      second_part: "乾坤日夜浮"
+
+- title: "江南逢李龟年"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "岐王宅里寻常见"
+      second_part: "崔九堂前几度闻"
+    - line_number: 2
+      first_part: "正是江南好风景"
+      second_part: "落花时节又逢君"
+
+- title: "赠卫八处士"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "人生不相见"
+      second_part: "动如参与商"
+    - line_number: 2
+      first_part: "今夕复何夕"
+      second_part: "共此灯烛光"
+
+- title: "佳人"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "绝代有佳人"
+      second_part: "幽居在空谷"
+    - line_number: 2
+      first_part: "自云良家子"
+      second_part: "零落依草木"
+
+- title: "梦李白二首"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "死别已吞声"
+      second_part: "生别常恻恻"
+    - line_number: 2
+      first_part: "江南瘴疠地"
+      second_part: "逐客无消息"
+
+- title: "韦讽录事宅观曹将军画马图"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "国初已来画鞍马"
+      second_part: "神妙独数江都王"
+    - line_number: 2
+      first_part: "将军得名三十载"
+      second_part: "人间又见真乘黄"
+
+- title: "丹青引赠曹将军霸"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "将军魏武之子孙"
+      second_part: "于今为庶为清门"
+    - line_number: 2
+      first_part: "英雄割据虽已矣"
+      second_part: "文采风流今尚存"
+
+- title: "寄韩谏议注"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "今我不乐思岳阳"
+      second_part: "身欲奋飞病在床"
+    - line_number: 2
+      first_part: "美人娟娟隔秋水"
+      second_part: "濯足洞庭望八荒"
+
+- title: "古柏行"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "孔明庙前有老柏"
+      second_part: "柯如青铜根如石"
+    - line_number: 2
+      first_part: "霜皮溜雨四十围"
+      second_part: "黛色参天二千尺"
+
+- title: "观公孙大娘弟子舞剑器行"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "昔有佳人公孙氏"
+      second_part: "一舞剑器动四方"
+    - line_number: 2
+      first_part: "观者如山色沮丧"
+      second_part: "天地为之久低昂"

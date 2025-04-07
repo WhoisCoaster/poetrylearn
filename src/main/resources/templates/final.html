@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>挑战结束</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>挑战结束</h1>
+        <div class="score">您的最终得分: <span th:text="${score}"></span>/100</div>
+        
+        <form th:action="@{/}" method="get" class="text-center">
+            <button type="submit" class="btn btn-primary">返回主页</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>答题结果</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="result" th:classappend="${result.startsWith('错误')} ? 'text-danger' : 'text-success'" 
+             th:text="${result}" style="font-size: 1.5rem; text-align: center;"></div>
+        
+        <div class="poem-info" th:text="${poemInfo}"></div>
+        <div class="score">当前得分: <span th:text="${score}"></span>/100</div>
+        
+        <form th:action="@{/next}" method="post" class="text-center">
+            <button type="submit" class="btn btn-primary">下一题</button>
+        </form>
+    </div>
+</body>
+</html>

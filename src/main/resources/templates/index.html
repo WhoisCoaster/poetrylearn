@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跟我学诗词</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>跟我学诗词</h1>
+        <p class="text-center">请选择学习难度：</p>
+        
+        <form th:action="@{/start}" method="post" class="mode-buttons">
+            <button type="submit" name="difficulty" value="easy" class="btn btn-primary">简单模式</button>
+            <button type="submit" name="difficulty" value="hard" class="btn btn-secondary">困难模式</button>
+            <button type="submit" name="difficulty" value="challenge" class="btn btn-danger">挑战模式</button>
+        </form>
+    </div>
+</body>
+</html>

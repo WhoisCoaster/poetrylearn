@@ -1,0 +1,541 @@
+- title: "静夜思"
+  dynasty: "唐"
+  author: "李白"
+  lines:
+    - line_number: 1
+      first_part: "床前明月光"
+      second_part: "疑是地上霜"
+    - line_number: 2
+      first_part: "举头望明月"
+      second_part: "低头思故乡"
+
+- title: "春晓"
+  dynasty: "唐"
+  author: "孟浩然"
+  lines:
+    - line_number: 1
+      first_part: "春眠不觉晓"
+      second_part: "处处闻啼鸟"
+    - line_number: 2
+      first_part: "夜来风雨声"
+      second_part: "花落知多少"
+
+- title: "悯农"
+  dynasty: "唐"
+  author: "李绅"
+  lines:
+    - line_number: 1
+      first_part: "锄禾日当午"
+      second_part: "汗滴禾下土"
+    - line_number: 2
+      first_part: "谁知盘中餐"
+      second_part: "粒粒皆辛苦"
+
+- title: "登鹳雀楼"
+  dynasty: "唐"
+  author: "王之涣"
+  lines:
+    - line_number: 1
+      first_part: "白日依山尽"
+      second_part: "黄河入海流"
+    - line_number: 2
+      first_part: "欲穷千里目"
+      second_part: "更上一层楼"
+
+- title: "江雪"
+  dynasty: "唐"
+  author: "柳宗元"
+  lines:
+    - line_number: 1
+      first_part: "千山鸟飞绝"
+      second_part: "万径人踪灭"
+    - line_number: 2
+      first_part: "孤舟蓑笠翁"
+      second_part: "独钓寒江雪"
+
+- title: "望庐山瀑布"
+  dynasty: "唐"
+  author: "李白"
+  lines:
+    - line_number: 1
+      first_part: "日照香炉生紫烟"
+      second_part: "遥看瀑布挂前川"
+    - line_number: 2
+      first_part: "飞流直下三千尺"
+      second_part: "疑是银河落九天"
+
+- title: "早发白帝城"
+  dynasty: "唐"
+  author: "李白"
+  lines:
+    - line_number: 1
+      first_part: "朝辞白帝彩云间"
+      second_part: "千里江陵一日还"
+    - line_number: 2
+      first_part: "两岸猿声啼不住"
+      second_part: "轻舟已过万重山"
+
+- title: "赋得古原草送别"
+  dynasty: "唐"
+  author: "白居易"
+  lines:
+    - line_number: 1
+      first_part: "离离原上草"
+      second_part: "一岁一枯荣"
+    - line_number: 2
+      first_part: "野火烧不尽"
+      second_part: "春风吹又生"
+
+- title: "九月九日忆山东兄弟"
+  dynasty: "唐"
+  author: "王维"
+  lines:
+    - line_number: 1
+      first_part: "独在异乡为异客"
+      second_part: "每逢佳节倍思亲"
+    - line_number: 2
+      first_part: "遥知兄弟登高处"
+      second_part: "遍插茱萸少一人"
+
+- title: "黄鹤楼送孟浩然之广陵"
+  dynasty: "唐"
+  author: "李白"
+  lines:
+    - line_number: 1
+      first_part: "故人西辞黄鹤楼"
+      second_part: "烟花三月下扬州"
+    - line_number: 2
+      first_part: "孤帆远影碧空尽"
+      second_part: "唯见长江天际流"
+
+- title: "山行"
+  dynasty: "唐"
+  author: "杜牧"
+  lines:
+    - line_number: 1
+      first_part: "远上寒山石径斜"
+      second_part: "白云生处有人家"
+    - line_number: 2
+      first_part: "停车坐爱枫林晚"
+      second_part: "霜叶红于二月花"
+
+- title: "清明"
+  dynasty: "唐"
+  author: "杜牧"
+  lines:
+    - line_number: 1
+      first_part: "清明时节雨纷纷"
+      second_part: "路上行人欲断魂"
+    - line_number: 2
+      first_part: "借问酒家何处有"
+      second_part: "牧童遥指杏花村"
+
+- title: "绝句"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "两个黄鹂鸣翠柳"
+      second_part: "一行白鹭上青天"
+    - line_number: 2
+      first_part: "窗含西岭千秋雪"
+      second_part: "门泊东吴万里船"
+
+- title: "游子吟"
+  dynasty: "唐"
+  author: "孟郊"
+  lines:
+    - line_number: 1
+      first_part: "慈母手中线"
+      second_part: "游子身上衣"
+    - line_number: 2
+      first_part: "临行密密缝"
+      second_part: "意恐迟迟归"
+    - line_number: 3
+      first_part: "谁言寸草心"
+      second_part: "报得三春晖"
+
+- title: "咏鹅"
+  dynasty: "唐"
+  author: "骆宾王"
+  lines:
+    - line_number: 1
+      first_part: "鹅鹅鹅"
+      second_part: "曲项向天歌"
+    - line_number: 2
+      first_part: "白毛浮绿水"
+      second_part: "红掌拨清波"
+
+- title: "凉州词"
+  dynasty: "唐"
+  author: "王之涣"
+  lines:
+    - line_number: 1
+      first_part: "黄河远上白云间"
+      second_part: "一片孤城万仞山"
+    - line_number: 2
+      first_part: "羌笛何须怨杨柳"
+      second_part: "春风不度玉门关"
+
+- title: "鹿柴"
+  dynasty: "唐"
+  author: "王维"
+  lines:
+    - line_number: 1
+      first_part: "空山不见人"
+      second_part: "但闻人语响"
+    - line_number: 2
+      first_part: "返景入深林"
+      second_part: "复照青苔上"
+
+- title: "送元二使安西"
+  dynasty: "唐"
+  author: "王维"
+  lines:
+    - line_number: 1
+      first_part: "渭城朝雨浥轻尘"
+      second_part: "客舍青青柳色新"
+    - line_number: 2
+      first_part: "劝君更尽一杯酒"
+      second_part: "西出阳关无故人"
+
+- title: "望天门山"
+  dynasty: "唐"
+  author: "李白"
+  lines:
+    - line_number: 1
+      first_part: "天门中断楚江开"
+      second_part: "碧水东流至此回"
+    - line_number: 2
+      first_part: "两岸青山相对出"
+      second_part: "孤帆一片日边来"
+
+- title: "池上"
+  dynasty: "唐"
+  author: "白居易"
+  lines:
+    - line_number: 1
+      first_part: "小娃撑小艇"
+      second_part: "偷采白莲回"
+    - line_number: 2
+      first_part: "不解藏踪迹"
+      second_part: "浮萍一道开"
+
+- title: "寻隐者不遇"
+  dynasty: "唐"
+  author: "贾岛"
+  lines:
+    - line_number: 1
+      first_part: "松下问童子"
+      second_part: "言师采药去"
+    - line_number: 2
+      first_part: "只在此山中"
+      second_part: "云深不知处"
+
+- title: "悯农"
+  dynasty: "唐"
+  author: "李绅"
+  lines:
+    - line_number: 1
+      first_part: "春种一粒粟"
+      second_part: "秋收万颗子"
+    - line_number: 2
+      first_part: "四海无闲田"
+      second_part: "农夫犹饿死"
+
+- title: "乐游原"
+  dynasty: "唐"
+  author: "李商隐"
+  lines:
+    - line_number: 1
+      first_part: "向晚意不适"
+      second_part: "驱车登古原"
+    - line_number: 2
+      first_part: "夕阳无限好"
+      second_part: "只是近黄昏"
+
+- title: "赠汪伦"
+  dynasty: "唐"
+  author: "李白"
+  lines:
+    - line_number: 1
+      first_part: "李白乘舟将欲行"
+      second_part: "忽闻岸上踏歌声"
+    - line_number: 2
+      first_part: "桃花潭水深千尺"
+      second_part: "不及汪伦送我情"
+
+- title: "古朗月行"
+  dynasty: "唐"
+  author: "李白"
+  lines:
+    - line_number: 1
+      first_part: "小时不识月"
+      second_part: "呼作白玉盘"
+    - line_number: 2
+      first_part: "又疑瑶台镜"
+      second_part: "飞在青云端"
+
+- title: "春夜喜雨"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "好雨知时节"
+      second_part: "当春乃发生"
+    - line_number: 2
+      first_part: "随风潜入夜"
+      second_part: "润物细无声"
+
+- title: "江畔独步寻花"
+  dynasty: "唐"
+  author: "杜甫"
+  lines:
+    - line_number: 1
+      first_part: "黄四娘家花满蹊"
+      second_part: "千朵万朵压枝低"
+    - line_number: 2
+      first_part: "留连戏蝶时时舞"
+      second_part: "自在娇莺恰恰啼"
+
+- title: "枫桥夜泊"
+  dynasty: "唐"
+  author: "张继"
+  lines:
+    - line_number: 1
+      first_part: "月落乌啼霜满天"
+      second_part: "江枫渔火对愁眠"
+    - line_number: 2
+      first_part: "姑苏城外寒山寺"
+      second_part: "夜半钟声到客船"
+
+- title: "塞下曲"
+  dynasty: "唐"
+  author: "卢纶"
+  lines:
+    - line_number: 1
+      first_part: "月黑雁飞高"
+      second_part: "单于夜遁逃"
+    - line_number: 2
+      first_part: "欲将轻骑逐"
+      second_part: "大雪满弓刀"
+
+- title: "小池"
+  dynasty: "宋"
+  author: "杨万里"
+  lines:
+    - line_number: 1
+      first_part: "泉眼无声惜细流"
+      second_part: "树阴照水爱晴柔"
+    - line_number: 2
+      first_part: "小荷才露尖尖角"
+      second_part: "早有蜻蜓立上头"
+
+- title: "画"
+  dynasty: "唐"
+  author: "王维"
+  lines:
+    - line_number: 1
+      first_part: "远看山有色"
+      second_part: "近听水无声"
+    - line_number: 2
+      first_part: "春去花还在"
+      second_part: "人来鸟不惊"
+
+- title: "梅花"
+  dynasty: "宋"
+  author: "王安石"
+  lines:
+    - line_number: 1
+      first_part: "墙角数枝梅"
+      second_part: "凌寒独自开"
+    - line_number: 2
+      first_part: "遥知不是雪"
+      second_part: "为有暗香来"
+
+- title: "七步诗"
+  dynasty: "三国"
+  author: "曹植"
+  lines:
+    - line_number: 1
+      first_part: "煮豆燃豆萁"
+      second_part: "豆在釜中泣"
+    - line_number: 2
+      first_part: "本是同根生"
+      second_part: "相煎何太急"
+
+- title: "回乡偶书"
+  dynasty: "唐"
+  author: "贺知章"
+  lines:
+    - line_number: 1
+      first_part: "少小离家老大回"
+      second_part: "乡音无改鬓毛衰"
+    - line_number: 2
+      first_part: "儿童相见不相识"
+      second_part: "笑问客从何处来"
+
+- title: "咏柳"
+  dynasty: "唐"
+  author: "贺知章"
+  lines:
+    - line_number: 1
+      first_part: "碧玉妆成一树高"
+      second_part: "万条垂下绿丝绦"
+    - line_number: 2
+      first_part: "不知细叶谁裁出"
+      second_part: "二月春风似剪刀"
+
+- title: "凉州词"
+  dynasty: "唐"
+  author: "王翰"
+  lines:
+    - line_number: 1
+      first_part: "葡萄美酒夜光杯"
+      second_part: "欲饮琵琶马上催"
+    - line_number: 2
+      first_part: "醉卧沙场君莫笑"
+      second_part: "古来征战几人回"
+
+- title: "出塞"
+  dynasty: "唐"
+  author: "王昌龄"
+  lines:
+    - line_number: 1
+      first_part: "秦时明月汉时关"
+      second_part: "万里长征人未还"
+    - line_number: 2
+      first_part: "但使龙城飞将在"
+      second_part: "不教胡马度阴山"
+
+- title: "芙蓉楼送辛渐"
+  dynasty: "唐"
+  author: "王昌龄"
+  lines:
+    - line_number: 1
+      first_part: "寒雨连江夜入吴"
+      second_part: "平明送客楚山孤"
+    - line_number: 2
+      first_part: "洛阳亲友如相问"
+      second_part: "一片冰心在玉壶"
+
+- title: "别董大"
+  dynasty: "唐"
+  author: "高适"
+  lines:
+    - line_number: 1
+      first_part: "千里黄云白日曛"
+      second_part: "北风吹雁雪纷纷"
+    - line_number: 2
+      first_part: "莫愁前路无知己"
+      second_part: "天下谁人不识君"
+
+- title: "独坐敬亭山"
+  dynasty: "唐"
+  author: "李白"
+  lines:
+    - line_number: 1
+      first_part: "众鸟高飞尽"
+      second_part: "孤云独去闲"
+    - line_number: 2
+      first_part: "相看两不厌"
+      second_part: "只有敬亭山"
+
+- title: "江南春"
+  dynasty: "唐"
+  author: "杜牧"
+  lines:
+    - line_number: 1
+      first_part: "千里莺啼绿映红"
+      second_part: "水村山郭酒旗风"
+    - line_number: 2
+      first_part: "南朝四百八十寺"
+      second_part: "多少楼台烟雨中"
+
+- title: "题西林壁"
+  dynasty: "宋"
+  author: "苏轼"
+  lines:
+    - line_number: 1
+      first_part: "横看成岭侧成峰"
+      second_part: "远近高低各不同"
+    - line_number: 2
+      first_part: "不识庐山真面目"
+      second_part: "只缘身在此山中"
+
+- title: "村居"
+  dynasty: "清"
+  author: "高鼎"
+  lines:
+    - line_number: 1
+      first_part: "草长莺飞二月天"
+      second_part: "拂堤杨柳醉春烟"
+    - line_number: 2
+      first_part: "儿童散学归来早"
+      second_part: "忙趁东风放纸鸢"
+
+- title: "石灰吟"
+  dynasty: "明"
+  author: "于谦"
+  lines:
+    - line_number: 1
+      first_part: "千锤万凿出深山"
+      second_part: "烈火焚烧若等闲"
+    - line_number: 2
+      first_part: "粉骨碎身浑不怕"
+      second_part: "要留清白在人间"
+
+- title: "题临安邸"
+  dynasty: "宋"
+  author: "林升"
+  lines:
+    - line_number: 1
+      first_part: "山外青山楼外楼"
+      second_part: "西湖歌舞几时休"
+    - line_number: 2
+      first_part: "暖风熏得游人醉"
+      second_part: "直把杭州作汴州"
+
+- title: "惠崇春江晚景"
+  dynasty: "宋"
+  author: "苏轼"
+  lines:
+    - line_number: 1
+      first_part: "竹外桃花三两枝"
+      second_part: "春江水暖鸭先知"
+    - line_number: 2
+      first_part: "蒌蒿满地芦芽短"
+      second_part: "正是河豚欲上时"
+
+- title: "元日"
+  dynasty: "宋"
+  author: "王安石"
+  lines:
+    - line_number: 1
+      first_part: "爆竹声中一岁除"
+      second_part: "春风送暖入屠苏"
+    - line_number: 2
+      first_part: "千门万户曈曈日"
+      second_part: "总把新桃换旧符"
+
+- title: "示儿"
+  dynasty: "宋"
+  author: "陆游"
+  lines:
+    - line_number: 1
+      first_part: "死去元知万事空"
+      second_part: "但悲不见九州同"
+    - line_number: 2
+      first_part: "王师北定中原日"
+      second_part: "家祭无忘告乃翁"
+
+- title: "夏日绝句"
+  dynasty: "宋"
+  author: "李清照"
+  lines:
+    - line_number: 1
+      first_part: "生当作人杰"
+      second_part: "死亦为鬼雄"
+    - line_number: 2
+      first_part: "至今思项羽"
+      second_part: "不肯过江东"
