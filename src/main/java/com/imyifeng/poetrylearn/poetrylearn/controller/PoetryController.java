@@ -43,6 +43,10 @@ public class PoetryController {
         model.addAttribute("questionBefore", parts[0]);
         model.addAttribute("questionAfter", parts.length > 1 ? parts[1] : "");
         
+        // 获取答案长度
+        String correctAnswer = poetryService.getAnswer(currentPoems.get(currentIndex), currentQuestion);
+        model.addAttribute("answerLength", correctAnswer.length() + 1);
+        
         return "game";
     }
 
@@ -78,6 +82,10 @@ public class PoetryController {
         model.addAttribute("questionBefore", parts[0]);
         model.addAttribute("questionAfter", parts.length > 1 ? parts[1] : "");
         
+        // 获取答案长度
+        String correctAnswer = poetryService.getAnswer(currentPoems.get(currentIndex), currentQuestion);
+        model.addAttribute("answerLength", correctAnswer.length() + 1);
+        
         return "game";
     }
 
@@ -91,6 +99,10 @@ public class PoetryController {
         String[] parts = currentQuestion.split("_____", 2);
         model.addAttribute("questionBefore", parts[0]);
         model.addAttribute("questionAfter", parts.length > 1 ? parts[1] : "");
+        
+        // 获取答案长度
+        String correctAnswer = poetryService.getAnswer(currentPoem, currentQuestion);
+        model.addAttribute("answerLength", correctAnswer.length() + 1);
         
         return "game";
     }

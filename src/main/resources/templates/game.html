@@ -13,25 +13,29 @@
         <div class="question-container">
             <div class="question-line">
                 <span th:text="${questionBefore}" class="poem-line"></span>
-                <input type="text" name="answer" class="answer-input" placeholder="填空">
+                <input type="text" name="answer" class="answer-input" id="answerInput">
+                <input type="hidden" th:value="${answerLength}" id="answerLength">
                 <span th:text="${questionAfter}" class="poem-line"></span>
             </div>
         </div>
         
-        <form th:action="@{/submit}" method="post" class="answer-form">
-            <input type="hidden" name="answer" id="fullAnswer">
-            <div class="actions">
-                <button type="submit" class="btn btn-primary">提交</button>
-            </div>
-        </form>
+        <!-- 增加间距的容器 -->
+        <div class="spacer"></div>
         
-        <div class="actions">
-            <form th:action="@{/hint}" method="post">
-                <button type="submit" class="btn btn-secondary">提示</button>
+        <div class="button-container">
+            <form th:action="@{/submit}" method="post" class="answer-form">
+                <input type="hidden" name="answer" id="fullAnswer">
+                <button type="submit" class="btn btn-primary submit-btn">提交</button>
             </form>
-            <form th:action="@{/next}" method="post">
-                <button type="submit" class="btn btn-danger">放弃</button>
-            </form>
+            
+            <div class="hint-abandon-group">
+                <form th:action="@{/hint}" method="post" class="hint-form">
+                    <button type="submit" class="btn btn-secondary">提示</button>
+                </form>
+                <form th:action="@{/next}" method="post" class="abandon-form">
+                    <button type="submit" class="btn btn-danger">放弃</button>
+                </form>
+            </div>
         </div>
         
         <div class="poem-info" th:if="${poemInfo}" th:text="${poemInfo}"></div>
@@ -39,14 +43,28 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const answerInput = document.querySelector('.answer-input');
+            const answerInput = document.getElementById('answerInput');
             const fullAnswerInput = document.getElementById('fullAnswer');
+            const answerLength = document.getElementById('answerLength').value;
+            
+            // 根据答案长度设置输入框宽度
+            function setInputWidth() {
+                const span = document.createElement('span');
+                span.style.visibility = 'hidden';
+                span.style.whiteSpace = 'nowrap';
+                span.style.font = window.getComputedStyle(answerInput).font;
+                span.textContent = '字'.repeat(answerLength);
+                document.body.appendChild(span);
+                answerInput.style.width = `${span.offsetWidth + 10}px`;
+                document.body.removeChild(span);
+            }
             
             answerInput.addEventListener('input', function() {
                 fullAnswerInput.value = this.value;
             });
             
-            // 自动聚焦输入框
+            // 设置初始宽度
+            setInputWidth();
             answerInput.focus();
         });
     </script>

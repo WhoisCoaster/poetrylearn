@@ -1,11 +1,13 @@
 :root {
-  --primary-color: #6c5ce7;
-  --secondary-color: #a29bfe;
+  --primary-color: #e16723;
+  --secondary-color: #d42517;
+  --accent-color: #f04b22;
+  --danger-color: #ed4845;
   --background: #f0f2f5;
   --white: #ffffff;
-  --shadow: 8px 8px 15px #d9d9d9, 
+  --shadow: 8px 8px 15px #d9d9d9,
            -8px -8px 15px #ffffff;
-  --inset-shadow: inset 3px 3px 5px #d9d9d9, 
+  --inset-shadow: inset 3px 3px 5px #d9d9d9,
                 inset -3px -3px 5px #ffffff;
   --transition: all 0.3s ease;
 }
@@ -29,19 +31,18 @@ body {
 
 .container {
   width: 100%;
-  max-width: 600px;  /* 从800px缩小到600px */
+  max-width: 600px;
   background: var(--white);
   border-radius: 20px;
-  padding: 2rem;    /* 减少内边距 */
+  padding: 2rem;
   box-shadow: var(--shadow);
-  margin: 0 auto;    /* 确保居中 */
+  margin: 0 auto;
 }
 
 .container.animated {
   animation: fadeIn 0.5s ease-out;
 }
 
-/* 调整按钮布局 */
 .mode-buttons {
   max-width: 400px;
   margin: 0 auto;
@@ -83,15 +84,15 @@ h1 {
 }
 
 .btn-primary {
-  background: var(--primary-color);
-}
-
-.btn-secondary {
   background: var(--secondary-color);
 }
 
+.btn-secondary {
+  background: var(--primary-color);
+}
+
 .btn-danger {
-  background: #ff7675;
+  background: var(--danger-color);
 }
 
 .question-line {
@@ -109,7 +110,9 @@ h1 {
 }
 
 .answer-input {
-  width: 10rem;
+  width: auto;
+  min-width: 3rem;
+  max-width: 15rem;
   height: 3rem;
   text-align: center;
   font-size: 1.5rem;
@@ -118,6 +121,7 @@ h1 {
   box-shadow: var(--inset-shadow);
   transition: var(--transition);
   margin: 0 0.5rem;
+  padding: 0 0.5rem;
 }
 
 .answer-input:focus {
@@ -137,34 +141,84 @@ h1 {
   line-height: 1.6;
 }
 
-.actions {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 1.5rem;
+/* 增加间距 */
+.question-container {
+    margin-bottom: 3rem;
 }
 
+/* 新增间距容器 */
+.spacer {
+    height: 2rem;
+}
+
+/* 按钮容器布局 */
+.button-container {
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* 提交按钮容器 */
+.answer-form {
+    flex: 1;
+}
+
+/* 提示放弃组容器 */
+.hint-abandon-group {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+}
+
+/* 按钮样式调整 */
+.submit-btn {
+    width: 100%;
+    height: 100%;
+}
+
+.hint-abandon-group .btn {
+    width: 100%;
+    height: 100%;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column;
+    }
+    
+    .spacer {
+        height: 1.5rem;
+    }
+    
+    .question-container {
+        margin-bottom: 2rem;
+    }
+}
+
+/* 保持原有动画和其他样式不变 */
 .poem-info {
-  margin-top: 2rem;
-  font-style: italic;
-  color: #666;
-  text-align: center;
-  animation: fadeIn 0.5s ease-out;
+    margin-top: 2rem;
+    font-style: italic;
+    color: #666;
+    text-align: center;
+    animation: fadeIn 0.5s ease-out;
 }
 
 .score {
-  font-size: 2rem;
-  text-align: center;
-  margin: 2rem 0;
-  color: var(--primary-color);
-  font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 .mode-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 3rem;
 }
 
 @media (max-width: 768px) {
